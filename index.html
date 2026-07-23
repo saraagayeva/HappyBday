@@ -18,7 +18,7 @@ img{max-width:100%;border-radius:18px;margin:16px 0}
 </div>
 <div id="s1" class="slide">
 <h2>Our Memories 📸</h2>
-<p>Replace the image below with your favourite photo.</p>
+<p>I Love You </p>
 <img src="https://via.placeholder.com/350x450?text=Your+Photo">
 <button onclick="next()">Next</button>
 </div>
@@ -30,7 +30,24 @@ img{max-width:100%;border-radius:18px;margin:16px 0}
 </div>
 <div id="s3" class="slide">
 <h2>A Letter 💌</h2>
-<p>Replace this with your own birthday letter.</p>
+<div class="letter">
+    <h2>For you ❤️</h2>
+
+    <p>
+    My Pookiepie,
+
+    I wanted to make something special for you because you deserve all the attention, care
+    and love in this world. I hope you have the most memorable and joyful birthday 
+    because you deserve this and more. I can't wait to see you tomorrow my handsome boy!
+
+    I hope you know how much I appreciate you and how happy you make me.
+
+    Happy Birthday ❤️
+
+    Love,
+    Sara
+    </p>
+</div>
 <button onclick="next()">One last thing...</button>
 </div>
 <div id="s4" class="slide">
@@ -43,8 +60,8 @@ let i=0;
 const slides=[...document.querySelectorAll('.slide')];
 function next(){slides[i].classList.remove('active');i++;slides[i].classList.add('active')}
 const reasons=[
-"Your smile.","The way you make me laugh.","How safe I feel with you.",
-"Your kindness.","Because you're you."
+"Your lil smile n dimples.","The way you're always there for me.","How safe I feel with you.",
+"Your gentleness.","Because you're you."
 ];
 let r=0;
 function reason(){
